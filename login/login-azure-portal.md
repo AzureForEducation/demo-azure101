@@ -12,4 +12,4 @@ By typing your email, password and surpassing your two-factor authentication pro
 
 <img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/azure-dashboard2.PNG" />
 
-That's it. You're in. Now we could check out other possibilities in how to get yourself logged in into Azure.
+That's it. You're in. Now you could check out other possibilities in how to get yourself logged in into Azure.
