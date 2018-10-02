@@ -8,7 +8,7 @@ For each Azure service, there must be a bunch of commands and properties that pu
 
 ## Installing Azure CLI 2.0
 
-You will need to install Azure CLI to get access to its resources. You'll find out such amazing tutorial in "how to install Azure CLI 2.0" for your operational system following-up that links:
+You will need to install Azure CLI to get access to its resources. You'll find out such an amazing tutorial in "how to install Azure CLI 2.0" for your operational system following-up that links:
 
 * [Windows](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
 * [MacOS](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-macos?view=azure-cli-latest)
@@ -21,20 +21,30 @@ You will need to install Azure CLI to get access to its resources. You'll find o
 
 ## Getting yourself authenticated through interactive login using Azure CLI
 
-Azure CLI 2.0 uses the "az" sentence as primitive to advice the interpreter that this is a azure CLI application. This is, to get yourself authenticated on the Azure platform, type the following command in either your CMD, PowerShell, Linux Subsystem or Terminal (for Mac and Linux).
+Azure CLI 2.0 uses the "az" sentence as primitive to advise the interpreter that this is an azure CLI application. This is, to get yourself authenticated on the Azure platform, type the following command in either your CMD, PowerShell, Linux Subsystem or Terminal (for Mac and Linux).
 
 ```shell
 az login
 ```
 
-By doing this, CLI utility will communicate with Azure Active Directory (AAD) and ask it for an new authentication process. Then you will see a message like that one shown by belows picture.
+By doing this, CLI utility will communicate with Azure Active Directory (AAD) and ask it for a new authentication process. Then you will see a message like that one shown by below picture.
 
-<img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/azure-cli-interactive-login2.PNG">
+<img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/azure-cli-interactive-login2.PNG" />
 
-This screen means that you must open up your prefered browser and type in there (address bar) the address "https://microsoft.com/devicelogin". By doing this a new web page asking for your access code will raise up. Just type that access code provided by the before's step into the proper field and click in "Continue". If requested, authenticate yourself with your Azure credential.
+This screen means that you must open up your preferred browser and type in there (address bar) the address "https://microsoft.com/devicelogin". By doing this, a new web page asking for your access code will raise up. Just type that access code provided by the before's step into the proper field and click on "Continue". If requested, authenticate yourself with your Azure credential.
 
-<img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/authentication-cli-device.PNG">
+<img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/authentication-cli-device.PNG" />
 
 By doing this, you should be able to see a list of all the subscriptions tied to your account, as shown by the figure below.
 
-<img src="">
+<img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/logged-cli-device.PNG" />
+
+<img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/logged-cli-device2.PNG" width="400" />
+
+Done. You're now logged into your Azure account. Now, there is only one thing left; select the account you're going to use during your work on Azure. To get that, type out the following command replacing the "your subscription id here" per the GUID info provided on that list shown by the CLI after you get logged.
+
+```shell
+az account set -s "your subscription id here."
+```
+
+By doing this, will be all set.
