@@ -29,3 +29,10 @@ az login
 
 By doing this, CLI utility will communicate with Azure Active Directory (AAD) and ask it for an new authentication process. Then you will see a message like that one shown by belows picture.
 
+<img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/azure-cli-interactive-login2.PNG">
+
+This screen means that you must open up your prefered browser and type in there (address bar) the address "https://microsoft.com/devicelogin". By doing this a new web page asking for your access code will raise up. Just type that access code provided by the before's step into the proper field and click in "Continue". If requested, authenticate yourself with your Azure credential.
+
+
+
+By doing this, you should be able to see a list of all the subscriptions tied to your account, as shown by the figure below.
