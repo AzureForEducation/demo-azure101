@@ -12,10 +12,10 @@ As everything on top of the Azure Portal, creating a new resource group is prett
 
 2) A new window will be shown describing what a resource group is. Just click on "Create", as you can see below.
 
-<img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/rg-create-description.PNG" width="400" />
+    <img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/rg-create-description.PNG" width="400" />
 
 3) By clicking on "Create" a new screen will be shown. Inform the resource group name, the Azure subscription in which the resource group will be tied to, and the location where this resource group is going to seat up. The figure below shows this process.
 
-<img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/rg-create-form.PNG" width="250" />
+    <img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/rg-create-form.PNG" width="250" />
 
 Done. In a few seconds, you will have a new resource group up and running and ready to receive workloads inside of it.
