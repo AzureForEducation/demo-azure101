@@ -10,4 +10,4 @@ To get access to your subscription just follow up the steps below.
 
 By typing your email, password and surpassing your two-factor authentication process, will should be able to see your Azure dashboard. It will be something pretty similar to image below.
 
-<img src="" />
+<img src="https://raw.githubusercontent.com/AzureForEducation/demo-azure101/master/images/azure-dashboard.PNG" />
